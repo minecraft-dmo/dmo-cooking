@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "dmo-cooking",
+  "version": "${version}",
+  "name": "DMO: Cooking",
+  "description": "",
+  "authors": [
+    "dakoda_"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.dakoda.dmo.cooking.ModInitialiser"
+      }
+    ]
+  },
+  "mixins": [
+    "mod_id.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric-api": ">=0.76.0+1.19.3",
+    "fabric-language-kotlin": ">=1.9.2+kotlin.1.8.10",
+    "minecraft": ">=1.19.3",
+    "java": ">=17"
+  }
+}

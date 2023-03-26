@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dmo-cooking:item/burnt_chicken"
+  }
+}
